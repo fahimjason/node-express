@@ -1,5 +1,5 @@
 const { StatusCodes } = require('http-status-codes');
-const { NotFoundError } = require('../../final-old/errors');
+const { NotFoundError } = require('../errors/not-found');
 const Job = require('../models/Job');
 
 const getAllJobs = async (req, res) => {
